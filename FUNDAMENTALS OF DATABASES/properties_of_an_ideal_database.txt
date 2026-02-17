@@ -1,0 +1,5 @@
+1. Integrity - Accurate and consistancy
+2. Availability- Zero down time
+3. Security- Data is protected
+4. Independent of Applications- If you have multiple application but you have only one database. Database is comfortable with every software
+5. Concurrency- Database is access parallel

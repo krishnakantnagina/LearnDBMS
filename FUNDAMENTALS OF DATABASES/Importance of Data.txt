@@ -1,0 +1,4 @@
+Data is New Oil 
+* Database is a storage which is managed by SQL
+* Data was always be an important thing in any digital evolution
+This motivate as to learn SQL
