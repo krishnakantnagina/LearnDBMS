@@ -1,24 +1,21 @@
-Types of Databases
-1. Relational Databases
+What is a DBMS?
 
-Also known as SQL databases, these databases use a relational model to organize data into tables with rows and columns.
+A Database Management System (DBMS) is a software system that provides interfaces and tools needed to store, organize, and manage data in a database.
 
-2. NoSQL Databases
+A DBMS acts as an intermediary between the database and the applications or users that access the data stored in the database.
 
-These databases are designed to handle large amounts of unstructured or semi-structured data, such as documents, images, or videos.
-Example: MongoDB
+Structure Overview:
 
-3. Column Databases
+Users → Applications → DBMS → Database → Operating System
 
-These databases store data in columns rather than rows, making them well-suited for data warehousing and analytical applications.
-Examples: Amazon Redshift, Google BigQuery
+Explanation:
 
-4. Graph Databases
+Users interact with applications.
 
-These databases are used to store and query graph-structured data, such as social network connections or recommendation systems.
-Examples: Neo4j, Amazon Neptune
+Applications send requests to the DBMS.
 
-5. Key-Value Databases
+DBMS manages the database (stores, retrieves, updates data).
 
-These databases store data as a collection of keys and values, making them well-suited for caching and simple data storage needs.
-Examples: Redis, Amazon DynamoDB
+Database stores the actual data.
+
+Operating System manages hardware resources (CPU, memory, disk).
