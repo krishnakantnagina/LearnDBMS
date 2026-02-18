@@ -1,0 +1,2 @@
+1. Relational Databases - Also Known as SQL databases, these databases use a relational model to organize data into tables with rows and columns.  
+ 
