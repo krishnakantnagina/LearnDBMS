@@ -1,0 +1,78 @@
+Basic Terms in a Relation (Table) – Simple Notes
+
+A relation in DBMS means a table.
+
+Example table: Employee
+
+1️⃣ Attributes (Columns / Fields)
+
+These are the column names of the table.
+
+Example:
+
+ID
+
+ENAME
+
+SALARY
+
+BONUS
+
+DEPT
+
+👉 The number of columns is called the Degree of the relation.
+
+If a table has 5 columns → Degree = 5
+
+2️⃣ Rows (Records / Tuples)
+
+Each horizontal entry in a table is called:
+
+Row
+
+Record
+
+Tuple
+
+👉 The number of rows is called the Cardinality of the relation.
+
+If a table has 4 rows → Cardinality = 4
+
+3️⃣ Domain
+
+Domain means the set of valid values an attribute can have.
+
+Example:
+
+DEPT → {ICP, ETA, IVS}
+
+SALARY → Only numeric values
+
+ID → Only integer values
+
+So, domain = allowed values of a column.
+
+4️⃣ NULL
+
+NULL means:
+
+No value
+
+Missing value
+
+Unknown value
+
+It is NOT zero and NOT empty string.
+
+5️⃣ Relation Representation
+
+A relation is usually written like this:
+
+Employee(ID, ENAME, SALARY, BONUS, DEPT)
+
+
+Where:
+
+Employee = Table name
+
+Inside brackets = Attributes
