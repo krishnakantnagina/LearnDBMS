@@ -1,0 +1,61 @@
+**What is Cardinality?**
+
+Cardinality in database relationships tells how many instances of one entity can be associated with one instance of another entity.
+
+In simple words:
+It defines the number of records that can relate between two tables.
+
+🔸 Types of Cardinality
+1️⃣ One-to-One (1:1)
+
+One record in Table A is related to only one record in Table B.
+
+And vice versa.
+
+Example:
+
+One person → One passport
+
+One student → One roll number
+
+Database Design:
+
+Foreign key is usually placed in one of the tables.
+
+Used when data is split for security or clarity.
+
+2️⃣ One-to-Many (1:N)
+
+One record in Table A can be related to many records in Table B.
+
+But each record in Table B relates to only one record in Table A.
+
+Example:
+
+One teacher → Many students
+
+One customer → Many orders
+
+One department → Many employees
+
+Database Design:
+
+Foreign key is placed in the "Many" side table.
+
+3️⃣ Many-to-Many (M:N)
+
+Many records in Table A can relate to many records in Table B.
+
+Example:
+
+Students ↔ Courses
+
+Authors ↔ Books
+
+Doctors ↔ Patients
+
+Database Design:
+
+We create a junction table (bridge table).
+
+It contains foreign keys from both tables.
